@@ -1,0 +1,41 @@
+
+
+<?php
+include("db_conn.php");
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+</head>
+<link rel="stylesheet" type="text/css" href="sign-up-page.css">
+<body>
+
+<div class="sign-up">
+      
+      <div class=""></div>
+
+	
+	<form action="sign-up_validation.php" method="post">
+
+
+
+		<div class="input-box">
+		<input type="text" name="username" placeholder="Enter your username" required>
+	</div>
+
+         <div class="input-box">
+		<input type="email" name="email" placeholder="Enter your Email" required>
+	</div>
+
+	<div class="input-box">
+		<input type="password" name="password" placeholder="Enter your password" required>
+	</div>
+		<button type="btn" value="Submit">submit</button>
+	</form>
+</div>
+</body>
+</html>

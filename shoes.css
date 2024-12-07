@@ -1,0 +1,363 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: red;
+
+}
+
+
+.menu li a {
+	border-radius: 8px;
+	margin-top: 10px;
+	border: 1px solid red;
+	width: 100px;
+	height: 20px;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: transform 0.5s;
+	
+	
+
+}
+
+.menu li {
+	
+	float: left; 
+}
+
+ul{
+	
+
+	background-color: black;
+	width: 1400px;
+	height: 70px;
+	margin-top: -2px;
+	position: fixed;
+}
+li a{
+	margin-left: 300px;
+}
+  
+  .menu li a:hover {
+	background-color:red;
+	transform: scale(1.3);
+    z-index: 2;
+}
+.card{
+	margin-left: 20px;
+	width: 250px;
+	height: 290px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 15px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 70px 30px;
+	background-image: url();
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.7s;
+}
+
+
+
+.card1{
+	
+	background-image: url(shoes-1.webp);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card2{
+	background-image: url(shoes-2.webp);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card3{
+	background-image: url(shoes-3.webp);
+	
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card4{
+	background-image: url(shoes-4.webp);
+	
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card5{
+	background-image: url(shoes-5.jpg);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card6{
+	background-image: url(shoes-6.jpg);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card7{
+    background-image: url(shoes-7.jpg);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card8{
+    background-image: url(shoes-8.jpg);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card9{
+    background-image: url(shoes-9.webp);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card10{
+	margin-right: 10px;
+    background-image: url(shoes-10.webp);
+    box-shadow: 0px 0px 30px black;
+}
+.card11{
+	background-image: url(shoes-11.png);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card12{
+    background-image: url(shoes-12.jpg);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card13{
+    background-image: url(shoes-13.jpg);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card14{
+    background-image: url(shoes-14.jpeg);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card15{
+    background-image: url(shoes-15.webp);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card16{
+    background-image: url(shoes-16.avif);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card17{
+    background-image: url(shoes-17.jpeg);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card18{
+    background-image: url(shoes-18.jpg);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card19{
+    background-image: url(shoes-19.webp);
+	margin-right: 10px;
+    box-shadow: 0px 0px 30px black;
+}
+.card20{
+	margin-right: 10px;
+    background-image: url(shoes-20.webp);
+	box-shadow: 0px 0px 50px black;
+
+}
+.card21{
+	margin-right: 10px;
+    background-image: url(shoes-21.jpg);
+	box-shadow: 0px 0px 50px black;
+
+}.card22{
+	margin-right: 10px;
+    background-image: url(shoes-22.jpeg);
+	box-shadow: 0px 0px 50px black;
+
+}.card23{
+	margin-right: 50px;
+    background-image: url(shoes23.webp);
+	box-shadow: 0px 0px 50px black;
+
+}
+.card24{
+	margin-right: 10px;
+    background-image: url(shoes-24.webp);
+	box-shadow: 0px 0px 50px black;
+
+}
+.card25{
+	margin-right: 10px;
+    background-image: url(shoes-25.jpeg);
+	box-shadow: 0px 0px 50px black;
+
+}
+.card26{
+	margin-right: 10px;
+    background-image: url(shoes-26.jpeg);
+	box-shadow: 0px 0px 50px black;
+
+}
+.card button{
+	border: 1px solid black;
+	margin-top: 210px;
+	width: 180px;
+	height: 30px;
+	margin-left: 15px;
+	border-radius: 8px;
+}
+button:hover{
+	background-color: red;
+	color: black;
+	border: 1px solid red;
+	border-radius: 8px;
+}
+.card1:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+.card2:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card3:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card4:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card5:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}.card6:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card7:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card8:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card9:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+.card10:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card11:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card12:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card13:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card14:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card15:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card16:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}.card17:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card18:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card19:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card20:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card21:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card22:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card23:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card24:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card25:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.card26:hover{
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

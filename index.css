@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+	
+}
+
+header{
+	overflow: hidden;
+background-image:url(shoes-back.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+ animation: zoomInOut 10s infinite alternate;
+transform: translate(-10px) ;
+
+
+}
+.menu{
+	float: right;
+
+}
+.menu ul{
+	
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 70px;
+	  transition: transform 0.5s;
+	
+	
+}
+.menu ul li{
+	display: inline-block;
+
+}
+.menu ul li a{
+	border: 1px solid red;
+	border-radius: 8px;
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+
+}
+.menu ul li a:hover{
+ background-color: black;
+ color: red;
+ 
+}
+
+
+
+span{
+	display: flex;
+
+	padding: 80px 20px 20px 510px;
+
+	
+	
+}
+
+span a{
+    
+    border-radius: 8px;
+	text-decoration: none;
+	color: red;
+	font-size: 40px;
+	border: 3px solid black;
+	height: 50px;
+	width: 500px;
+	text-align: center;
+	justify-content: center;
+	transition: transform 0.5s;
+}
+a:hover{
+	background-color: red;
+	color: black;
+	border: 1px solid black;
+	transform: scale(1.3);
+	z-index: 2;
+	
+}
+
+
+.row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.card{
+	
+	width: 200px;
+	height: 290px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 15px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.7s;
+}
+
+
+.card1{
+background-image: url(Trial-1.jpeg);
+}
+.card2{
+	background-image: url(Trial-11.jpeg);
+}
+.card3{
+	background-image: url(Trial-12.jpg);
+}
+.card4{
+	background-image: url(Trial-13.jpeg);
+}
+.card5{
+	background-image: url(Trial-14.webp);
+}
+
+
+
+.card:hover{
+	transform: translateY(-50px);
+}
+ .row  h5{
+	color: red;
+	font-size: 18px;
+	font-family: monospace;
+
+
+	
+}
+h5:hover{
+	color: blue;
+}
+@keyframes zoomInOut{
+
+	0%,100%{
+		background-size: 100% 100%;
+		
+
+		
+	}
+	50%{
+		background-size: 120% 120%;
+
+		}
+	
+
+
+
+}

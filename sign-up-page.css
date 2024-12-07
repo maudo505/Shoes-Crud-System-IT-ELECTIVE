@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{ 
+	background: url(sign-up.jpg) no-repeat center/cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	animation: zoomInOut 10s infinite alternate;
+
+}
+
+
+.sign-up{
+display: flex;
+margin-left: 80px;
+border: 3px solid red ;
+height: 600px;
+width: 430px;
+border-radius: 8px;
+background-color: rgba(0, 0, 0, 0.5);
+box-shadow:inset -5px -5px rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+}
+
+.sign-up .input-box{
+  
+  padding: 20px 0 30px 0;
+  
+}
+
+.input-box input{
+	background: transparent;
+	width: 280px;
+	height: 30px;
+	border-radius: 8px;
+	outline: none;
+	border: none;
+	border: 1px solid red;
+	transition: transform 0.3s ease-in-out;
+}
+
+input[type=text]{
+	color: white;
+	font-size: 19px;
+}
+
+input[type=email]{
+	color: white;
+	font-size: 19px;
+}
+
+
+input[type=password]{
+	color: white;
+	font-size: 19px;
+}
+
+button{
+     background-color: transparent;
+   margin-top: 20px;
+	width: 288px;
+	height: 40px;
+	border: 1px solid red;
+	border-radius: 8px;
+color: red;
+font-size: 20px;
+}
+button:hover{
+	background-color: red;
+	color: white;
+}
+@keyframes zoomInOut{
+
+	0%,100%{
+		background-size: 100% 100%;
+		
+
+		
+	}
+	50%{
+		background-size: 120% 120%;
+
+		}
+	
+	
+
+
+}
+.input-box input:focus{
+	
+    transform: scale(1.2); /* Zoomed in when focused */
+}
